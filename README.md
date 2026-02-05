@@ -25,15 +25,7 @@ Bot de Discord creat per gestionar les redaccions assignades als membres del ser
 git clone https://github.com/tu-usuario/tu-bot-discord.git
 cd tu-bot-discord
 
-# 2. Crear entorn virtual (recomanat)
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
-
-# 3. Instal·lar dependències
+# 2. Instal·lar dependències
 pip install -r requirements.txt
 ```
 
