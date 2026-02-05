@@ -35,19 +35,16 @@ source venv/bin/activate
 
 # 3. Instal·lar dependències
 pip install -r requirements.txt
-
-# 4. Configurar variables d'entorn
-cp .env.example .env
 ```
 
 ### 3. Configurar .env
-Edita el fitxer .env amb:
+Crea un fitxer .env i edita'l afegint el següent:
 ```env
 DISCORD_TOKEN=el_teu_token
 ID_CANAL_REDACCIONS=el_teu_id
 ```
 
-### 4. Obtenir credencials del bot
+### 4. Com obtenir les credencials del bot
 1. Ves a Discord Developer Portal
 
 2. Crea una nova aplicació → "New Application"
